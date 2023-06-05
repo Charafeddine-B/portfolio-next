@@ -23,11 +23,11 @@ export default function Home() {
         </nav>
         <div className="text-center p-10 ">
           <h2 className="text-5xl py-2 text-teal-600 font-medium">Charaf Eddine Belyazid</h2>
-          <h3>FullStack Developer</h3>
-          <p>4th year student @EMSI 
-            Freelancer providing services for programming and needs. Join me down below and let's get cracking!</p>
+          <h3 className="text-2xl py-2">FullStack Developer</h3>
+          <p className="text-md py-5 leading-8 text-gray-800">4th year student @EMSI 
+            Freelancer providing services for programming and needs. Join me down below and let&apos;s get cracking!</p>
         </div>
-        <div>
+        <div className="text-5xl flex justify-center gap-16 py-3 text-gray-600"  >
           <AiFillTwitterCircle/>
           <AiFillLinkedin/>
           <AiFillYoutube/>
